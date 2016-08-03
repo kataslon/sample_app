@@ -20,14 +20,14 @@ group :development do
   gem 'better_errors', git: 'https://github.com/manafire/better_errors.git', branch: 'allow_domain'
 end
 
-gem 'pg',             '0.15.1'
+gem 'pg',             '~> 0.15'
 gem 'bootstrap-sass', '2.3.2.0'
-gem 'sass-rails'
-gem 'uglifier',       '3.0.1'#'2.1.1'
-gem 'coffee-rails',   '4.0.1'
+gem 'sass-rails',     '~> 5.0'
+gem 'uglifier',       '1.3.0'#'2.1.1'
+gem 'coffee-rails',   '~> 4.1.0'
 gem 'jquery-rails',   '3.0.4'
 gem 'turbolinks',     '1.1.1'
-gem 'jbuilder',       '1.0.2'
+gem 'jbuilder',       '~> 2.0'
 
 group :doc do
   gem 'sdoc', '0.3.20', require: false
