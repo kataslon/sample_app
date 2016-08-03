@@ -22,8 +22,9 @@ end
 
 gem 'pg',             '~> 0.15'
 gem 'bootstrap-sass', '2.3.2.0'
+gem 'bcrypt-ruby',    '3.1.2'
 gem 'sass-rails',     '~> 5.0'
-gem 'uglifier',       '~> 2.7'#'2.1.1'
+gem 'uglifier',       '~> 2.7'
 gem 'coffee-rails',   '~> 4.1.0'
 gem 'jquery-rails',   '3.0.4'
 gem 'turbolinks',     '1.1.1'
