@@ -12,6 +12,7 @@ group :test do
   gem 'selenium-webdriver', '2.35.1'
   gem 'capybara',           '2.2.0'
   gem 'libnotify', '~> 0.9.1'
+  gem 'factory_girl_rails', '4.2.1'
 end
 
 group :development do
@@ -27,8 +28,9 @@ gem 'sass-rails',     '~> 5.0'
 gem 'uglifier',       '~> 2.7'
 gem 'coffee-rails',   '~> 4.1.0'
 gem 'jquery-rails',   '3.0.4'
-gem 'turbolinks',     '1.1.1'
+gem 'turbolinks',     '~>2.5.3'
 gem 'jbuilder',       '~> 2.0'
+
 
 group :doc do
   gem 'sdoc', '0.3.20', require: false
