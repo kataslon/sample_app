@@ -13,6 +13,8 @@ group :test do
   gem 'capybara',           '2.2.0'
   gem 'libnotify', '~> 0.9.1'
   gem 'factory_girl_rails', '4.2.1'
+  gem 'cucumber-rails', '1.4.0', :require => false
+  gem 'database_cleaner', github: 'bmabey/database_cleaner'
 end
 
 group :development do
